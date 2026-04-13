@@ -1,0 +1,11 @@
+prefix=C:/Users/ZHT/Desktop/librime-1.16.1-64
+exec_prefix=${prefix}
+libdir=lib
+includedir=C:/Users/ZHT/Desktop/librime-1.16.1-64/include
+
+Name: opencc
+Description: Open Chinese Convert
+Version: 1.2.0
+Requires:
+Libs: -L${libdir} -lopencc
+Cflags: -I${includedir}/opencc
